@@ -74,11 +74,3 @@ This script:
 ```bash
 python src/data_collection/extract_opengov_comments.py
 ```
-
-## Notes for public GitHub publishing
-- This repo includes **anonymized samples** for public sharing.
-- Keep full raw comments/private data outside public repos unless you have legal/ethical clearance.
-- Keep personal names anonymized in exported examples.
-
-## Citation
-If you use this code or methodology, cite the report in `docs/Report.docx`.
