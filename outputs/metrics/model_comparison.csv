@@ -1,0 +1,4 @@
+Model,Threshold,Accuracy,Macro-F1,F1 (N),F1 (P),Precision (P),Recall (P)
+LogisticRegression,0.6,0.888,0.799,0.933,0.664,0.717,0.618
+LinearSVM (calibrated),0.44,0.892,0.788,0.936,0.64,0.787,0.539
+RandomForest,0.27,0.859,0.772,0.913,0.632,0.592,0.678
