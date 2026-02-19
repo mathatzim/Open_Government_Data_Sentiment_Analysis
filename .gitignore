@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Office temp files ---
+~$*.xlsx
+~$*.docx
+
+# --- Large/private raw files (keep only public samples in repo) ---
+Comments(1st code).xlsx
+Comments_scored.xlsx
+Comments_with_predictions.xlsx
+
+# Ignore all Excel files in data/raw EXCEPT the public samples
+data/raw/*.xlsx
+!data/raw/consultations_index.xlsx
+!data/raw/comments_sample_anonymized.xlsx
+
+# Ignore all prediction exports EXCEPT the public sample
+outputs/predictions/*.xlsx
+!outputs/predictions/comments_with_predictions_sample.xlsx
+
+# --- Literature PDFs (keep locally unless you’re 100% sure they’re allowed to share) ---
+docs/literature/papers/
+docs/literature/*.pdf
