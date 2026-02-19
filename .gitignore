@@ -37,6 +37,6 @@ data/raw/*.xlsx
 outputs/predictions/*.xlsx
 !outputs/predictions/comments_with_predictions_sample.xlsx
 
-# --- Literature PDFs (keep locally unless you’re 100% sure they’re allowed to share) ---
+# --- Literature PDFs (keep locally unless licensed) ---
 docs/literature/papers/
 docs/literature/*.pdf
