@@ -52,7 +52,8 @@ This repository contains the code and supporting files for the MSc project:
 ### 1) Create environment
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+# Windows: .venv\Scripts\activate
+# Mac/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
